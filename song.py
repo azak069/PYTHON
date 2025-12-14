@@ -17,6 +17,8 @@ for i, (baris, jeda_k) in enumerate(lirik):
         t.sleep(jeda_k)
     t.sleep(jeda[i])
     print(" ")
+
+# Program ini menampilkan lirik lagu dengan efek ketikan menggunakan modul sys dan time di Python.
         
             
         
