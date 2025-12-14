@@ -5,4 +5,4 @@ print(nama[2:5])
 print(nama[-3:])
 print(nama[:])
 
-# Program Indexing dan Slicing String Sederhana
+# Program ini mendemonstrasikan penggunaan indexing dan slicing pada string di Python.
