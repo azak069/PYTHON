@@ -15,7 +15,7 @@ elif nilai >= 60:
 else:
     print("E")
 
-# Program Penilaian Sederhana
+# menggunakan if elif else untuk menentukan grade berdasarkan nilai
 
 umur = int(input("Masukkan umur Anda: "))
 punya_ktp = input("Apakah Anda memiliki KTP? (ya/tidak): ").lower()
@@ -24,4 +24,6 @@ if umur >= 17 and punya_ktp == "ya":
 else:
     print("Anda tidak boleh memilih dalam pemilu.")
 
-# Program Penentuan Nilai Sederhana
+# menggunakan if elif else untuk menentukan kelayakan memilih dalam pemilu
+
+# Program ini mendemonstrasikan penggunaan pernyataan if, elif, dan else di Python.
