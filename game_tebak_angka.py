@@ -48,3 +48,5 @@ def tebak_angka():
     input("Tekan Enter untuk kembali ke menu utama!\n")
 
 menu()
+
+# Program ini adalah permainan tebak angka sederhana menggunakan fungsi di Python.
