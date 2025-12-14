@@ -1,6 +1,6 @@
 nilai = int(input("Masukkan nilai : "))
-
+# Conditional expression (ternary operator) digunakan untuk menentukan hasil berdasarkan kondisi
 hasil = "Lulus" if nilai >= 60 else "Tidak Lulus"
 print(hasil)
 
-# Program Penentuan Lulus atau Tidak Lulus
+# Program ini mendemonstrasikan penggunaan conditional expression (ternary operator) di Python.
