@@ -12,3 +12,5 @@ for i in range(360):
 
 p.hideturtle()
 t.done()
+
+# Program ini mendemonstrasikan penggunaan modul turtle untuk menggambar pola warna-warni di Python.
