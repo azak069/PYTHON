@@ -8,4 +8,4 @@ def total(*angka):
         hasil += i
         return hasil
     
-# Program ini membuat module berisi 2 fungsi yang bisa diimport ke pogram file module.py
+# Program ini membuat module berisi 2 fungsi yang bisa diimport ke program di file module.py
