@@ -65,4 +65,11 @@ cetak_dict(umur=20, umur2=22, umur3=25)
 
 # Program Fungsi dictionary dengan Argumen Tak Terbatas
 
+tambah = lambda x, y: x + y # membuat fungsi dengan lambda untuk penjumlahan dua angka
+kali = lambda x, y: x * y # membuat fungsi dengan lambda untuk perkalian dua angka
+print("Hasil penjumlahan 5 + 3 =", tambah(5, 3))
+print("Hasil perkalian 5 * 3 =", kali(5, 3))
+
+# Program Fungsi sederhana dengan Lambda untuk fungsi yang singkat
+
 # Program ini mendemonstrasikan penggunaan fungsi di Python.
