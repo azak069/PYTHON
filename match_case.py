@@ -1,5 +1,5 @@
 hari = int(input("Masukkan nama hari : ")).lower()
-
+# menggunakan match case untuk mengecek variabel hari
 match hari:
     case "senin" | "selasa" | "rabu" | "kamis" | "jumat":
         print("KERJA KERJA KARJA")
@@ -8,4 +8,4 @@ match hari:
     case _:
         print("Nama hari tidak valid!")
 
-# Program Penentuan Hari Kerja atau Libur
+# Program ini mendemonstrasikan penggunaan match case di Python untuk mengecek nama hari.
