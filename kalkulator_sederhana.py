@@ -89,3 +89,5 @@ def menu():
 
 
 menu()
+
+# Program ini adalah kalkulator sederhana yang dapat melakukan penjumlahan, pengurangan, perkalian, dan pembagian menggunakan fungsi di Python.
