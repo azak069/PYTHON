@@ -45,6 +45,8 @@ jumlah_a = nama.count("a") # Menghitung jumlah kemunculan karakter "a"
 print(jumlah_a)
 posisi_r = nama.find("r") # Mencari posisi karakter "r" dalam string
 print(posisi_r)
+index_t = nama.index("t") # Mencari indeks karakter "t" dalam string
+print(index_t)
 
 kalimat = "Socrates hidup\nSocrates mati"
 print(kalimat)
@@ -83,3 +85,10 @@ nama = "leo tolstoy"
 data = f"Nama saya {nama.title()}."
 print(data)
 # Menggunakan metode string dalam f-string untuk memformat teks
+
+umur = 82
+teks = "Nama saya {}. Umur saya {} tahun.".format(nama, umur)
+print(teks)
+# Menggunakan metode format() untuk menggabungkan string dengan variabel
+
+# Program ini mendemonstrasikan berbagai operasi dan metode string di Python.
