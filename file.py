@@ -26,7 +26,7 @@ print("== Program Selesai ==")
 print("== Menampilkan Data Nilai ==")
 try:
     with open("contoh.txt", "r") as file: # membuka file dalam mode baca
-
+    # menggunakan with untuk memastikan file ditutup otomatis setelah selesai digunakan
         for line in file:
             data = line.strip().split(",") # memisahkan data berdasarkan koma
             print(f"{data[0]} : {data[1]}") # menampilkan data dari file
