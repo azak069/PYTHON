@@ -67,3 +67,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Program ini adalah aplikasi to-do list sederhana yang memungkinkan pengguna untuk menambah, melihat, dan menghapus tugas menggunakan fungsi di Python.
