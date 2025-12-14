@@ -13,3 +13,5 @@ for i in range(tinggi):
 
     # Pindah ke baris baru
     print()
+
+# Program ini mencetak segitiga bintang berdasarkan tinggi yang dimasukkan pengguna.
