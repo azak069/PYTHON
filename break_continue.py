@@ -10,11 +10,13 @@ while True:
         print("Tebakan Anda salah. Coba lagi.")
         continue
 
-# Program Tebak Angka Sederhana
+# break digunakan untuk keluar dari loop ketika tebakan benar
 
 for i in range(1, 11):
     if i % 2 == 0:
         continue
     print(f"Angka ganjil : {i}")
 
-# Program Menampilkan Angka Ganjil
+# continue digunakan untuk melewati iterasi genap dan hanya mencetak angka ganjil
+
+# Program ini mendemonstrasikan penggunaan pernyataan break dan continue dalam loop di Python.
