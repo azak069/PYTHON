@@ -3,6 +3,9 @@ print(nama[0])  # Output: Jokowi
 print(nama[2])  # Output: Ganjar
 print(nama[1])  # Output: Prabowo
 print(nama[0])  # Output: Jokowi
+length = len(nama) # mendapatkan panjang list
+print(length)  # Output: 5
+print(nama.index("Ganjar"))  # mencari indeks elemen "Ganjar"
 
 # Program Akses Elemen List Sederhana
 
@@ -19,6 +22,9 @@ nama.append("Ahmad Dhani") # menambahkan elemen di akhir list
 print(nama)
 nama.insert(2, "Sri Mulyani") # menambahkan elemen di indeks tertentu
 print(nama)
+nama2 = nama.copy() # menyalin list
+nama2.append("Ma'ruf Amin") # menambahkan elemen di list salinan
+print(nama2)
 
 # Program Menambahkan Elemen List Sederhana
 
@@ -27,6 +33,8 @@ print(nama)
 nama.pop() # menghapus elemen terakhir
 print(nama)
 del nama[1] # menghapus berdasarkan indeks dengan del
+print(nama)
+nama.clear() # menghapus semua elemen dalam list
 print(nama)
 
 # Program Menghapus Elemen List Sederhana
@@ -52,5 +60,11 @@ else:
     print("Jokowi tidak ada dalam daftar calon presiden.")
 
 # Program Pengecekan Keberadaan Elemen List Sederhana
+
+angka = [5, 2, 9, 1, 5, 6]
+angka.sort() # mengurutkan list secara ascending
+print(angka)
+angka.reverse() # membalik urutan list
+print(angka)
 
 # Program ini mendemonstrasikan berbagai operasi dasar pada list di Python.
