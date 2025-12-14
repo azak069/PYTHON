@@ -11,7 +11,7 @@ while True:
     nama = input("Masukkan Nama Siswa : ")
     if nama == "":
         break
-    
+
     nilai = input("Masukkan Nilai Siswa : ")
     
     file.write(f"Nama : {nama}, Nilai : {nilai} \n") # menulis data ke file
@@ -24,7 +24,7 @@ print("== Program Selesai ==")
 # Menginput dan Menyimpan Data ke File
 
 print("== Menampilkan Data Nilai ==")
-try:
+try: # menangani error jika file tidak ditemukan
     with open("contoh.txt", "r") as file: # membuka file dalam mode baca
     # menggunakan with untuk memastikan file ditutup otomatis setelah selesai digunakan
         for line in file:
