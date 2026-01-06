@@ -33,3 +33,5 @@ object_saya = Saya("Andi", 30) # membuat objek dari kelas Saya dengan parameter
 object_saya.sapa() # memanggil method sapa dari objek
 object_saya2 = Saya("Rina", 28) # membuat objek kedua dari kelas Saya dengan parameter
 object_saya2.sapa() # memanggil method sapa dari objek kedua
+
+# Program ini mendemonstrasikan konsep kelas, objek, atribut, dan method dalam pemrograman berorientasi objek menggunakan Python.
