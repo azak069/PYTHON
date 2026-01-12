@@ -66,7 +66,7 @@ for kendaraan in kendaraan_list:
 
 print(" ")
 
-# abstract base class
+# abstract base class atau interface
 from abc import ABC, abstractmethod
 
 class Bentuk(ABC):
