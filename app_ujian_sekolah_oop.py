@@ -52,9 +52,9 @@ class App:
         jawaban_benar = 0
         jawaban_salah = 0
 
-        print("Aplikasi Ujian Sekolah Berbasis OOP\n")
-        print("Selamat datang di aplikasi ujian sekolah berbasis OOP!\n")
-        print("Jawablah pertanyaan berikut dengan memilih salah satu opsi jawaban (A, B, C, atau D):\n")
+        print("=== Aplikasi Ujian Sekolah Berbasis Sederhana OOP ===")
+        print("Selamat datang di aplikasi ujian sekolah sederhana berbasis OOP!")
+        print("Jawablah pertanyaan berikut dengan memilih salah satu opsi jawaban (A, B, C, atau D):")
         print("-----------------------")
         for j, soal in enumerate(self.ujian.soal_ujian):
             soal = self.ujian.soal_ujian[j]
@@ -96,7 +96,7 @@ class App:
             print("\nTidak ada soal yang dijawab.")
             return
         nilai = (jawaban_benar / total) * 100
-        print("Hasil Ujian :")
+        print("\nHasil Ujian :")
         print("Jawaban Benar : ", jawaban_benar)
         print("Jawaban Salah : ", jawaban_salah)
         print("Nilai Ujian : {:.2f}%".format(nilai))
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         app.jalankan_ujian()
     except Exception as e:
         print(f"Gagal menjalankan aplikasi ujian: {e}")
-    print("Terima kasih telah menggunakan aplikasi ujian sekolah berbasis OOP.")
+    print("Terima kasih telah menggunakan aplikasi ujian sekolah sederhana berbasis OOP.")
 
 # Program ini merekonstruksi kembali program ujian sekolah menggunakan pendekatan berorientasi objek (OOP) dalam Python.
 # Fungsi-fungsi utama telah diubah menjadi kelas dan methods untuk meningkatkan modularitas dan pemeliharaan kode.
