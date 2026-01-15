@@ -52,6 +52,10 @@ class App:
         jawaban_benar = 0
         jawaban_salah = 0
 
+        print("Aplikasi Ujian Sekolah Berbasis OOP\n")
+        print("Selamat datang di aplikasi ujian sekolah berbasis OOP!\n")
+        print("Jawablah pertanyaan berikut dengan memilih salah satu opsi jawaban (A, B, C, atau D):\n")
+        print("-----------------------")
         for j, soal in enumerate(self.ujian.soal_ujian):
             soal = self.ujian.soal_ujian[j]
             print("\n", j + 1, ".", soal.pertanyaan)
