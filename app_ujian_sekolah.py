@@ -60,9 +60,13 @@ def app_ujian():
     jawaban_benar = 0
     jawaban_salah = 0
 
+    print("=== Aplikasi Ujian Sekolah Sederhana ===")
+    print("Selamat datang di aplikasi ujian sekolah sederhana!")
+    print("Jawablah pertanyaan berikut dengan memilih salah satu opsi jawaban (A, B, C, atau D):")
+    print("-----------------------")
     for j, soal in enumerate(soal_ujian):
         opsi = ["A", "B", "C", "D"]
-        print("\nPertanyaan", j + 1, ".", soal["pertanyaan"])
+        print("\n", j + 1, ".", soal["pertanyaan"])
         print("Jawaban : ")
 
         for k, jawaban in enumerate(soal["jawaban"]):
@@ -100,7 +104,7 @@ def app_ujian():
         print("\nTidak ada soal yang dijawab.")
         return
     nilai = (jawaban_benar / total) * 100
-    print("Hasil Ujian :")
+    print("\nHasil Ujian :")
     print("Jawaban Benar : ", jawaban_benar)
     print("Jawaban Salah : ", jawaban_salah)
     print("Nilai Ujian : {:.2f}%".format(nilai))
